@@ -1,0 +1,46 @@
+body{
+    background: aliceblue;
+}
+
+form{
+    background-color: #fff;
+    width: 25%;
+    margin: 100px auto;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+input,select{
+    margin: 20px 60px;
+    padding: 15px 15px;
+    width: 60%;
+    font-size: 15px;
+    font-family: cursive;
+    border-color: lightgreen;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+label{
+    text-align: left;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+#preview-btn{
+    width: 69%;
+    margin-top: 60px;
+    border-color: lightblue;
+}
+
+#preview-btn:hover{
+    cursor: pointer;
+    background: lightblue;
+    border-color: lightblue;
+}
+
+.result{
+    margin: 100px 100px;
+    background-color: lightcyan;
+    border-style: double;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="Style.css"/>
+    <script src="Affidavit.js"></script>
+</head>
+<body>
+  <center>
+    <form name="form1">
+        <label>First Name </label><input type="textbox" id="first" placeholder="Enter your First name"/> <br/>
+        <label>Last Name </label><input type="textbox" id="last" placeholder="Enter your Last name"/> <br/>
+        <label>Pay Amount </label><input type="textbox" id="pay" placeholder="Enter Payment Amount"/> <br/>
+        <label>Choose Term </label>
+        <select id="term">
+          <option selected>Select</option>
+          <option>Once</option>
+          <option>Monthly</option>
+        </select><br/>
+        <label>Address </label><input type="textfield" rows="4" id="address" placeholder="Your Address"/> <br/>
+        <label>Email </label><input type="textbox" id="email" placeholder="Enter your mail"/><br/>
+        <input type="submit" onclick="preview()" id="preview-btn">
+    </form>
+  </center>
+</body>
+</html>
